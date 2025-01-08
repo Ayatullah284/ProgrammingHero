@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border:1px solid black;
+            padding: 5px 10px;
+        }
+        nav>li{
+            display: flex;
+            list-style: none;
+            padding: 5px 10px;
+            margin-right: 60px;
+
+        }
+        nav li a{
+            color: black;
+        }
+        nav li:hover{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="video.html">video</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>My Table</h1>
+    <table>
+        <caption>Polapaner salary data</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ayatullah</td>
+                <td>HTML_Lover</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Faruk</td>
+                <td>Tech_IT</td>
+                <td>$2000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Momin</td>
+                <td>Mileston</td>
+                <td>$1500</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sirajul</td>
+                <td>Them_Tag</td>
+                <td>$2500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">mot polapan: 4</td>
+            </tr>
+        </tfoot>
+    </table>
+    </main>
+</body>
+</html>

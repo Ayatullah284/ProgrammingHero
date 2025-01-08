@@ -1,0 +1,45 @@
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+*{
+    margin: 0;
+}
+.blog{
+    background-color: indigo;
+    border: 5px solid tomato; /* solid / dotted / dashed */
+    /* border-top: 20px solid salmon ; */
+    /* border-bottom: 20px solid salmon ; */
+    /* border-left: 20px solid salmon ; */
+    /* border-right: 20px solid salmon ; */
+    border-bottom: none;
+    border-radius: 10px;
+    /* margin: 10px 20px 40px 80px;*/  
+    /* 1. 1 ==> TRBL
+       2. 2 ==> TBLR
+       3. 3 ==> TLRB
+       4. 4 ==> TRBL
+
+    TRBL 
+    */
+    /* margin: 20px; */
+    text-align: justify;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 10px 10px 20px orange;
+}
+.img{
+    height: 300px;
+    /* background-color: chartreuse; */
+    padding: 20px;
+    margin: 40px;
+    background-image: url("/New-file.gif");
+    /* background-repeat: no-repeat; */
+    /* background-repeat:repeat-x; */
+    /* background-repeat:repeat-y; */
+    /* background-image:cover; */
+    background-image:contain;
+}
