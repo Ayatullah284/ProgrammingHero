@@ -22,36 +22,75 @@
 .commone{
     margin-left: 140px;
     margin-right: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+body{
+    padding: 0;
+    margin: 0;
 }
 
+.button{
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF; 
+    cursor: pointer;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+.center{
+    align-items: center;
+    text-align: center;
+
+}
+.center-taitle{
+    align-items: center;
+    font-size: 46px;
+    font-weight: bold; 
+    text-align: center;
+}
 
 /* nav  */
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .div-1, .div-2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
+.div-1 img{
+    cursor: pointer;
+}
 .div-1 h1{
     font-weight: bold;
     font-size: 32px;
     height: 30px;
     width: 129px;
+    cursor: pointer;
+
 }
 .div-2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 
 }
 .div-2 p{
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 #p1{
     color: #ffa302;
@@ -70,11 +109,204 @@ nav{
 
 }
 nav button{
-    height: 50px;
-    width: 197px;
-    border-radius: 12px;
-    border: none;
     background-color: #ffa300;
-    font-size: 20px;
-    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
+
+
+
+
+
+
+/* banner  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 575px;
+    margin-bottom: 60px;
+}
+.banner div{
+    margin-right: 50px;
+}
+.banner h1{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 10%;
+}
+.banner p{
+    width: 75%;
+}
+.banner button{
+    background-color: #111111;
+
+}
+
+
+
+
+
+
+
+/* Standard Curriculum  */
+.Standard-Curriculum{
+    background-image: url(/B11-A2-Kids-School/assets/bg.png);
+    background-repeat: no-repeat;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 367px;
+    height: 476px;
+    /* height: 550px; */
+    border-radius: 18.86px;
+    padding-top: 52px;
+    padding-bottom: 53px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+.card> img{
+    margin-bottom: 50px;
+}
+
+.card-1{
+    background-image: linear-gradient(#DEF5FF, #FFFFFF);
+    margin-right: 28px;
+    
+}
+.card-2{
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+    
+}
+.card-3{
+    background-image: linear-gradient(#F2E8FF, #FFFFFF);
+    margin-left: 28px;
+    
+}
+.next{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.background{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-top: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* Our-Stories  */
+.story{
+    padding-top: 0.5px;
+    background-image: linear-gradient(#FFFFFF, #f9ebd1);
+    
+}
+.story-container{
+    display: flex;
+    justify-content: space-between;
+}
+.story-card{
+    width: 780px;
+    margin-right: 19px;
+    background-color: #ffffff;
+    text-align: start;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.story-card > h2, .story-card>p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 20px;
+}
+.story-container-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-card-2{
+    height: 350px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    text-align: start;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.story-card-2 > h4{
+    padding-left: 30px;
+    font-weight: 20px;
+}
+
+.story button{
+    background-color: #111111;  
+    margin-top: 80px;   
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/* footer  */
+footer{
+    display: flex;
+}
+.footer-1>p{
+    width: 70%;
+}
+.f-logo{
+    display: flex;
+    line-height: 30%; 
+    cursor: pointer;
+
+}
+
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    cursor: pointer;
+} 
+
+.footer-content{
+    background-color: #01acfc;
+    color: #ffffff;
+    margin-top: -20px;
+    padding-top: 93px;
+    padding-bottom: 124px;
+}
+
+
+
+
+
+
+
+
+
+/* midea query  */
+@media screen and (max-width: 768px) {
+    .div-2, .button{
+        display: none;
+    }
+
+  }
