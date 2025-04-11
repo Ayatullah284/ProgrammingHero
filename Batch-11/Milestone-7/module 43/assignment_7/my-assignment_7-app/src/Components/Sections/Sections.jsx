@@ -73,7 +73,20 @@ const Sections = () => {
                 <h1 className='text-4xl'>Active Auctions</h1>
                 <p>Discover and bid on extraordinary items</p>
                 <div className='flex  mt-8'>
-                    <div className='grid grid-cols-3 gap-10 mb-10'>
+                    {/* <div className='grid grid-cols-3 gap-10 mb-10'>
+                        {
+                            cards.map(card =><Left disabled={disabledIds.includes(card.id)} key={card.id} card={card} handleHert={handleHert}></Left>)
+                        }
+                    </div> */}
+                    <div className=' mb-10 w-4/6'>
+                        <div className='bg-[#ffffff] rounded-t-xl text-xl font-bold
+                        text-[#151515] flex py-1'>
+                            <h1 className='ml-4'>Items</h1>
+                            <h1 className='ml-82'>Current Bid</h1>
+                            <h1 className='ml-15'>Time Left</h1>
+                            <h1 className='ml-10 mr-4'>Bid Now</h1>
+                        </div>
+                        <hr />
                         {
                             cards.map(card =><Left disabled={disabledIds.includes(card.id)} key={card.id} card={card} handleHert={handleHert}></Left>)
                         }
@@ -89,9 +102,9 @@ const Sections = () => {
                             herts.map(hert => <Right hert={hert} handleDelete={handleDelete} key={hert.id}></Right>)
                          
                         }
-                        <div className=' flex justify-around pt-11 pb-5 bg-[#ffffff] rounded-b-xl'>
-                            <p className='text-xl font-bold'>Total bids Amount:</p>
-                            <p className='text-xl font-bold'>$<span>{price}</span></p>
+                        <div className=' flex pt-8 pb-5 bg-[#ffffff] rounded-b-xl'>
+                            <p className='text-xl font-bold ml-10'>Total bids Amount:</p>
+                            <p className='text-xl font-bold ml-10'>$<span>{price}</span></p>
                         </div>                        
                     </div>
                 </div>
@@ -107,7 +120,20 @@ const Sections = () => {
                 </div>
                 
                 <div className='flex justify-between  mt-8'>
-                    <div className='grid grid-cols-3 gap-10 mb-10'>
+                    {/* <div className='grid grid-cols-3 gap-10 mb-10'>
+                        {
+                            cards.map(card =><Left key={card.id} card={card} handleHert={handleHert}></Left>)
+                        }
+                    </div> */}
+                    <div className=' mb-10 w-4/6'>
+                        <div className='bg-[#ffffff] rounded-t-xl text-xl font-bold
+                        text-[#151515] flex py-1'>
+                            <h1 className='ml-4'>Items</h1>
+                            <h1 className='ml-82'>Current Bid</h1>
+                            <h1 className='ml-15'>Time Left</h1>
+                            <h1 className='ml-10 mr-4'>Bid Now</h1>
+                        </div>
+                        <hr />
                         {
                             cards.map(card =><Left key={card.id} card={card} handleHert={handleHert}></Left>)
                         }
