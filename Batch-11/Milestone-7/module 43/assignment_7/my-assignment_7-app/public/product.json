@@ -1,0 +1,192 @@
+[
+    {
+      "id": 1,
+      "title": "Leica M3 Camera",
+      "description": "A high-resolution digital camera perfect for capturing crisp photos.",
+      "currentBidPrice": 120.50,
+      "timeLeft": "2h 30m",
+      "bidsCount": 8,
+      "image": "https://i.ibb.co.com/k60Bfdzh/Bid1-min.png"
+    },
+    {
+      "id": 2,
+      "title": "Standard Electric Guitar",
+      "description": "A versatile standard electric guitar designed for players of all levels.",
+      "currentBidPrice": 320.00,
+      "timeLeft": "5h 10m",
+      "bidsCount": 15,
+      "image": "https://i.ibb.co.com/pjHV2dd4/Bid2-min.png"
+    },
+    {
+      "id": 3,
+      "title": "Apple Macintosh 128K",
+      "description": "the Macintosh 128K marked the beginning of modern computing.",
+      "currentBidPrice": 250.75,
+      "timeLeft": "1d 3h",
+      "bidsCount": 12,
+      "image": "https://i.ibb.co.com/GfqN1KPY/Bid3-min.png"
+    },
+    {
+      "id": 4,
+      "title": "Rolex Submariner 16610",
+      "description": "The Rolex Submariner 16610 is a timeless classic.",
+      "currentBidPrice": 675.00,
+      "timeLeft": "3d 0h",
+      "bidsCount": 25,
+      "image": "https://i.ibb.co.com/5Zw9Gck/Bid4-min.png"
+    },
+    {
+      "id": 5,
+      "title": "Eames Lounge Chair",
+      "description": "the Eames Lounge Chair and its redefined modern furniture.",
+      "currentBidPrice": 150.00,
+      "timeLeft": "4h 20m",
+      "bidsCount": 9,
+      "image": "https://i.ibb.co.com/xSRCc5FQ/Bid5-min.png"
+    },
+    {
+      "id": 6,
+      "title": "The Great Gatsby",
+      "description": "The Great Gatsby by F. Scott Fitzgerald is a haunting portrayal.",
+      "currentBidPrice": 420.99,
+      "timeLeft": "6h 45m",
+      "bidsCount": 18,
+      "image": "https://i.ibb.co.com/j9v1BQGZ/Bid6-min.png"
+    },
+    {
+      "id": 7,
+      "title": "Banksy Screen Print",
+      "description": "This Banksy screen print captures the rebellious spirit.",
+      "currentBidPrice": 899.99,
+      "timeLeft": "12h 10m",
+      "bidsCount": 30,
+      "image": "https://i.ibb.co.com/PZh5PwP2/Bid7-min.png"
+    },
+    {
+      "id": 8,
+      "title": "Leica M3 Camera",
+      "description": "A high-resolution digital camera perfect for capturing crisp photos.",
+      "currentBidPrice": 120.50,
+      "timeLeft": "2h 30m",
+      "bidsCount": 8,
+      "image": "https://i.ibb.co.com/k60Bfdzh/Bid1-min.png"
+    },
+    {
+      "id": 9,
+      "title": "Standard Electric Guitar",
+      "description": "A versatile standard electric guitar designed for players of all levels.",
+      "currentBidPrice": 320.00,
+      "timeLeft": "5h 10m",
+      "bidsCount": 15,
+      "image": "https://i.ibb.co.com/pjHV2dd4/Bid2-min.png"
+    },
+    {
+      "id": 10,
+      "title": "Apple Macintosh 128K",
+      "description": "the Macintosh 128K marked the beginning of modern computing.",
+      "currentBidPrice": 250.75,
+      "timeLeft": "1d 3h",
+      "bidsCount": 12,
+      "image": "https://i.ibb.co.com/GfqN1KPY/Bid3-min.png"
+    },
+    {
+      "id": 11,
+      "title": "Rolex Submariner 16610",
+      "description": "The Rolex Submariner 16610 is a timeless classic.",
+      "currentBidPrice": 675.00,
+      "timeLeft": "3d 0h",
+      "bidsCount": 25,
+      "image": "https://i.ibb.co.com/5Zw9Gck/Bid4-min.png"
+    },
+    {
+      "id": 12,
+      "title": "Eames Lounge Chair",
+      "description": "the Eames Lounge Chair and its redefined modern furniture.",
+      "currentBidPrice": 150.00,
+      "timeLeft": "4h 20m",
+      "bidsCount": 9,
+      "image": "https://i.ibb.co.com/xSRCc5FQ/Bid5-min.png"
+    },
+    {
+      "id": 13,
+      "title": "The Great Gatsby",
+      "description": "The Great Gatsby by F. Scott Fitzgerald is a haunting portrayal.",
+      "currentBidPrice": 420.99,
+      "timeLeft": "6h 45m",
+      "bidsCount": 18,
+      "image": "https://i.ibb.co.com/j9v1BQGZ/Bid6-min.png"
+    },
+    {
+      "id": 14,
+      "title": "Banksy Screen Print",
+      "description": "This Banksy screen print captures the rebellious spirit.",
+      "currentBidPrice": 899.99,
+      "timeLeft": "12h 10m",
+      "bidsCount": 30,
+      "image": "https://i.ibb.co.com/PZh5PwP2/Bid7-min.png"
+    },
+    {
+      "id": 15,
+      "title": "Leica M3 Camera",
+      "description": "A high-resolution digital camera perfect for capturing crisp photos.",
+      "currentBidPrice": 120.50,
+      "timeLeft": "2h 30m",
+      "bidsCount": 8,
+      "image": "https://i.ibb.co.com/k60Bfdzh/Bid1-min.png"
+    },
+    {
+      "id": 16,
+      "title": "Standard Electric Guitar",
+      "description": "A versatile standard electric guitar designed for players of all levels.",
+      "currentBidPrice": 320.00,
+      "timeLeft": "5h 10m",
+      "bidsCount": 15,
+      "image": "https://i.ibb.co.com/pjHV2dd4/Bid2-min.png"
+    },
+    {
+      "id": 17,
+      "title": "Apple Macintosh 128K",
+      "description": "the Macintosh 128K marked the beginning of modern computing.",
+      "currentBidPrice": 250.75,
+      "timeLeft": "1d 3h",
+      "bidsCount": 12,
+      "image": "https://i.ibb.co.com/GfqN1KPY/Bid3-min.png"
+    },
+    {
+      "id": 18,
+      "title": "Rolex Submariner 16610",
+      "description": "The Rolex Submariner 16610 is a timeless classic.",
+      "currentBidPrice": 675.00,
+      "timeLeft": "3d 0h",
+      "bidsCount": 25,
+      "image": "https://i.ibb.co.com/5Zw9Gck/Bid4-min.png"
+    },
+    {
+      "id": 19,
+      "title": "Eames Lounge Chair",
+      "description": "the Eames Lounge Chair and its redefined modern furniture.",
+      "currentBidPrice": 150.00,
+      "timeLeft": "4h 20m",
+      "bidsCount": 9,
+      "image": "https://i.ibb.co.com/xSRCc5FQ/Bid5-min.png"
+    },
+    {
+      "id": 20,
+      "title": "The Great Gatsby",
+      "description": "The Great Gatsby by F. Scott Fitzgerald is a haunting portrayal.",
+      "currentBidPrice": 420.99,
+      "timeLeft": "6h 45m",
+      "bidsCount": 18,
+      "image": "https://i.ibb.co.com/j9v1BQGZ/Bid6-min.png"
+    },
+    {
+      "id": 21,
+      "title": "Banksy Screen Print",
+      "description": "This Banksy screen print captures the rebellious spirit.",
+      "currentBidPrice": 899.99,
+      "timeLeft": "12h 10m",
+      "bidsCount": 30,
+      "image": "https://i.ibb.co.com/PZh5PwP2/Bid7-min.png"
+    }
+  ]
+  
