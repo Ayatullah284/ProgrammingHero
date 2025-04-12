@@ -108,10 +108,22 @@ nav{
     color: #5e5aed;
 
 }
-nav button{
+/* nav button{
     background-color: #ffa300;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+} */
+.buttonNav{
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF; 
+    cursor: pointer;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #ffa300;
 }
 
 
@@ -301,12 +313,185 @@ footer{
 
 
 
+#hrNav, #hide1, #banar-2{
 
+    display: none;
+}
 
-/* midea query  */
-@media screen and (max-width: 768px) {
-    .div-2, .button{
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .hide, #logoName, .banar-1{
         display: none;
     }
+    #hide1{
+        display:block;
+        cursor: pointer;
+    }
+    #hrNav, #banar-2{
+        display: block;
+        cursor: pointer;
+    }
+    .commone{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-  }
+    .banner h1{
+        font-weight: bold;
+        font-size: 36px;
+        /* line-height: 50%; */
+    }
+    .banner p{
+        width: 100%;
+    }
+    #banar-2 img{
+        margin-top: 270px;
+        width: 440px;
+    }
+    .banner div{
+        text-align: center;
+
+        
+    }
+    .banner{
+        margin-bottom: 350px;
+        
+    }
+
+
+
+
+    /* Standard Curriculum  */
+.card-container{
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 376px;
+    /* height: 550px; */
+    border-radius: 18.86px;
+    padding-top: 52px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 40px;
+
+}
+
+.card-1{
+    background-image: linear-gradient(#DEF5FF, #FFFFFF);
+    /* margin-right: 28px; */
+    
+}
+
+.card-3{
+    background-image: linear-gradient(#F2E8FF, #FFFFFF);
+    /* margin-left: 28px; */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Our-Stories  */
+.story{
+    padding-top: 0.5px;
+    background-image: linear-gradient(#FFFFFF, #f9ebd1);
+    
+}
+.story-container{
+    flex-direction: column;
+}
+.story-card{
+    display: none;
+}
+.story-card > h2, .story-card>p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 20px;
+}
+.story-container-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-card-2{
+    height: 330px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    text-align: start;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 210px;
+    
+}
+.story-card-2 > h4{
+    padding-left: 30px;
+    font-weight: 20px;
+}
+
+.story button{
+    background-color: #111111;  
+    margin-top: 80px;   
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+footer{
+    flex-direction: column;
+}
+.footer-1 p{
+    width: 100%;
+
+}
+.f-logo{
+    display: flex;
+    line-height: 30%; 
+    cursor: pointer;
+
+}
+
+.footer-2{
+    flex-direction: column;
+    width: 100%;
+} 
+
+.footer-content{
+    background-color: #01acfc;
+    color: #ffffff;
+    margin-top: -20px;
+    padding-top: 93px;
+    padding-bottom: 124px;
+}
+
+    
+    
+}
